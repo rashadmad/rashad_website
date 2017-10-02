@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rashadWebsite</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/lumen/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
@@ -12,9 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/treehouseApp.css">
     <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="{rashad_website}}/js/reportcard/css/badges.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/treehouse.js"></script>
 </head>
 
 <body>
@@ -61,7 +63,8 @@
         <div class="container">
             <div class="intro">
                 <h2 class="text-center" id="services">Contractual Services </h2>
-                <p class="text-center">If it's strengthening your web presence or just getting help looking for the right URL name, (and everything in between) I can help. I provide many services that can help your company not only establish a presence on the web but also continue to grow that presence. My services are provided on a contract basis. I also provide consulting for people willing to learn about these services but can not afford to have the work done for them.</p>
+                <p class="text-center">If it's strengthening your web presence or just getting help looking for the right URL name, (and everything in between) I can help. I provide many services that can help your company not only establish a presence on the web but also continue
+                    to grow that presence. My services are provided on a contract basis. I also provide consulting for people willing to learn about these services but can not afford to have the work done for them.</p>
             </div>
             <div class="row features">
                 <div class="col-md-4 col-sm-6 item"><i class="fa fa-black-tie icon"></i>
@@ -83,7 +86,8 @@
                 </div>
                 <div class="col-md-4 col-sm-6 item"><i class="icon ion-ios-world-outline icon"></i>
                     <h3 class="name">Web hosting and domain names</h3>
-                    <p class="description">Finding the right company for your domain and hosting space can be a pain. Selecting the right URL name, making sure the hosting space will scale with your business and other issues sometimes can be best handled by someone more qualified. I can take care of that for you so you can focus on running your business.</p>
+                    <p class="description">Finding the right company for your domain and hosting space can be a pain. Selecting the right URL name, making sure the hosting space will scale with your business and other issues sometimes can be best handled by someone more qualified.
+                        I can take care of that for you so you can focus on running your business.</p>
                 </div>
                 <div class="col-md-4 col-sm-6 item"><i class="fa fa-google icon"></i>
                     <h3 class="name">Registering your buisness</h3>
@@ -91,7 +95,8 @@
                 </div>
                 <div class="col-md-4 col-sm-6 item"><i class="glyphicon glyphicon-phone icon"></i>
                     <h3 class="name">Responsive design</h3>
-                    <p class="description">I tailor your site to you target audiences devices. I develop sites mobile first, guaranteeing that they are legible on all popular devices. It helps to collect data on specific devices that your clients use to develop a product tailored to them. A specialized web experience is a service I provide.</p>
+                    <p class="description">I tailor your site to you target audiences devices. I develop sites mobile first, guaranteeing that they are legible on all popular devices. It helps to collect data on specific devices that your clients use to develop a product tailored
+                        to them. A specialized web experience is a service I provide.</p>
                 </div>
             </div>
         </div>
@@ -100,55 +105,66 @@
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <h1>Why would you hire me?</h1>
-                <p class="text-info">Simply put, I love this stuff. I love solving people's problems with code and design. I am an awesome guy to be around. I lead by example and follow with encouragement. In conclusion, Hiring me is worth the risk because I hate letting people down.</p>
+                <p>Simply put, I love this stuff. I love solving people's problems with code and design. I am an awesome guy to be around. I lead by example and follow with encouragement. In conclusion, Hiring me is worth the risk because I hate letting
+                    people down.</p>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12"><img src="assets/img/rashadProfilePic.jpg" width="300" id="real_profile_pic"></div>
         </div>
     </div>
-    <div></div>
     <div class="article-list">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center" id="projects">Projects</h2>
-                <p class="text-center">Some of theses are works in progress. They show my exploration into HTML,CSS, javaScript, jQuery and sass. I still have plently to learn but still very ecited in my expedition in to the web world.</p>
+                <p class="green text-center">Some of the theses are works in progress. They show my exploration into HTML, CSS, javaScript, jQuery and sass. I use tools like the internet and mentorship to continue my education.</p>
             </div>
             <div class="row articles">
-                <div class="col-md-4 col-sm-6 item">
+                <div class="col-md-4 col-sm-12 item">
                     <a href="#"><img class="img-responsive" src="assets/img/fultonFithouse_thumbNail.jpg" width="360" height="240"></a>
                     <h3 class="name">Fulton Fithouse</h3>
-                    <p class="description">I created this for a personal trainer's gym. I used the bootstrap studio app to accomplish it but I originaly made the first rendintion of the site in the bootstrap frame work but made the production piece in its desktop app.</p>
-                    <a
-                    class="btn btn-default" role="button" href="https://rashadmad.github.io/" style="margin:15px;">View site</a>
+                    <p class="description">I created this for a personal trainer's gym. I used the bootstrap studio app to accomplish it but I originaly made the first rendintion of the site in the bootstrap frame work but made the production piece in its desktop app. I problem solved useing my understanding of Javascript and knowlege</p>
+                    <a class="btn btn-default" role="button" href="https://rashadmad.github.io/" style="margin:15px;">View site</a>
                 </div>
-                <div class="col-md-4 col-sm-6 item">
+                <div class="col-md-4 col-sm-12 item">
                     <a href="#"><img class="img-responsive" src="assets/img/flightSite_thumbNail.jpg" width="360" height="240"></a>
                     <h3 class="name">Flight Site</h3>
-                    <p class="description">This is a wip for a design challenge that I am currently doing for 8th light University.</p><a class="btn btn-default" role="button" href="https://rashadmad.github.io/" style="margin:15px;">View site</a></div>
-                <div class="col-md-4 col-sm-6 item">
+                    <p class="description">This is a wip for a design challenge that I am currently doing for 8th light University.</p><a class="btn btn-default" role="button" href="https://rashadmad.github.io/Flight-Site/" style="margin:15px;">View site</a>
+                </div>
+                <div class="col-md-4 col-sm-12 item">
                     <a href="#"><img class="img-responsive" src="assets/img/coming_soon_thumbNail.jpg" width="360" height="240" id="comeing"></a>
                     <h3 class="name">Coming Soon</h3>
                     <p class="description">I have another project in mind once I complete The project that I am wokring on at the moment. Keep an eye out.</p>
-                    <a href="#" class="action"></a><a class="btn btn-default" role="button" href="https://rashadmad.github.io/" style="margin:15px;">View site</a></div>
+                    <a class="btn btn-default" role="button" href="https://rashadmad.github.io/" style="margin:15px;">View site</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div>
+
+                        <img class="treehouse_logo" src="assets/img/Treehouse_Logo.png" alt="treehouse logo" width="100">
+                        <h2 class="text-center">I Am A Student At Treehouse.com here are my Achievements<br><br><strong class='total green'>0</strong> points have been earned</h2>
+
+                        <div class="pieChart group">
+                            <div class="pie"></div>
+                            <div class="legend"></div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <h2 class="text-center">Take a look at my work On Github</h1>
+                    <p class="text-center">I make a habit of tinkering and prototypeing.</p>
+                    <div class="github-widget" data-username="rashadmad"></div>
+                    <script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
+                </div>
             </div>
         </div>
     </div>
-    <div class="features-boxed"></div>
-    <div class="blue" style="background-color:#ff5722;padding:40px;">
-        <div class="row">
-            <div class="left col-lg-6 col-md-6">
-                <h1>Take A look at my work On Github</h1>
-                <p class="text-info">I make a habit of always doing some tinkering and prototypeing. If you want to see the beautiful mess that is my git hub repo by all means take a look .</p>
-            </div>
-            <div class="col-lg-6 col-md-6">
-              <img>
-            </div>
-        </div>
-    </div>
+
     <div class="features-boxed">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center" id="skills">Skills </h2>
-                <p class="text-center">Some of theses are works in progressbut they all show where my interest lie. All prototyping, creativeresponsibilities and programming were all mine.</p>
+                <p class="text-center">I Have collected different skills in digital media throughout my career. Honing my skills is important to me and learning new things is fun.</p>
             </div>
             <div class="row features">
                 <div class="col-md-4 col-sm-6 item">
@@ -232,20 +248,21 @@
     <div class="blue" style="background-color:#29ade0;padding:40px;">
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                <h1>I Love Useing Treehouse </h1>
-                <p>A large part of my development as a frontend-development education</p>
+
             </div>
-            <div class="col-lg-6 col-md-6"><div class="report-card treehouse"></div></div>
+            <div class="col-lg-6 col-md-6">
+
+            </div>
         </div>
     </div>
     <div class="contact-clean">
         <h2 class="text-center" id="resume">Resume </h2>
+        <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/rashad-madison-6371b713" data-format="inline" data-related="false"></script>
         <form method="post">
             <h2 class="text-center">Contact us</h2>
             <div class="form-group has-success has-feedback">
                 <input class="form-control" type="text" name="name" placeholder="Name"><i class="form-control-feedback glyphicon glyphicon-ok" aria-hidden="true"></i></div>
-                <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-    <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/rashad-madison-6371b713" data-format="inline" data-related="false"></script>
+            <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/rashad-madison-6371b713" data-format="inline" data-related="false"></script>
             <div class="form-group">
                 <textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea>
             </div>
@@ -258,34 +275,26 @@
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <header>
-                    <h3 class="name">Glade you came to my site, Thank You!</h3></header>
+                    <h1>Glade you came to my site, Thank You!</h1></header>
                 <hr>
-                <p class="text-left" style="line-height:2.5;">I am here for all of your web design and front-end development needs. I am free for contract work and full time hire at the moment. Contact me at my email: rashadmad@gmail.com . also follow me on my twitter, Linkedin and github.</p>
+                <p class="text-left">I am here for all of your web design and front-end development needs. I am free for contract work and full time hire at the moment. Contact me at my email: rashadmad@gmail.com. also follow me on twitter, Linkedin and github.</p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="thumbnail text-center"><img class="img-circle" src="assets/img/rashadProfilePic.jpg" style="height: 50px; height: 50px;">
                     <div class="caption">
                         <h5><a href="#"><i class="fa fa-user fa-fw"></i> Rashad J Madison</a></h5>
-                        <p class="text-nowrap text-muted"> I am not hard to reach. &nbsp;&nbsp;</p>
+                        <p class="text-nowrap text-muted"> I am easy to reach. &nbsp;&nbsp;</p>
                         <div class="social-links social-icons"><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a class="text-info" href="#"><i class="fa fa-github"></i></a></div>
                         <a class="btn btn-info" role="button" href="tel:7733205797" style="margin:5px;"><i class="fa fa-phone fa-fw"></i> call me</a><a class="btn btn-info" role="button" href="rashadmad@gmail.com"><i class="fa fa-mail-forward fa-fw"></i>email me</a></div>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
     <section id="copywrite" class="features">
         <h5 class="text-center">Powered By Rashad J Madison © 2017</h5></section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="{{rashad_website}}/js/reportcard/js/reportcard.js"></script>
-    <script>
-      $('.report-card.treehouse').reportCard({
-        userName: 'rashadmadison',
-        site: 'treehouse',
-        badgesAmount: 7
-      });
-    </script>
+    <div class="report-card treehouse"></div>
 </body>
 
 </html>
