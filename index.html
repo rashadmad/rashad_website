@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rashadWebsite</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/lumen/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic">
@@ -16,7 +16,11 @@
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="assets/css/treehouseApp.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
     <script src="assets/js/treehouse.js"></script>
+    <script type="text/javascript" src="assets/js/smoothScroll.js" charset="utf-8"></script>
+
 </head>
 
 <body>
@@ -32,7 +36,7 @@
                         <li role="presentation"><a href="#services">Services </a></li>
                         <li role="presentation"><a href="#projects">Projects </a></li>
                         <li role="presentation"><a href="#skills">Skills </a></li>
-                        <li role="presentation"><a href="#resume">Resume </a></li>
+                        <li role="presentation"><a href="#contact">Contact </a></li>
                         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Blog <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li role="presentation"><a href="#">Coming soon</a></li>
@@ -52,7 +56,7 @@
                     <h1 class="text-left" style="margin-bottom:30px;">I <i class="glyphicon glyphicon-heart" style="color:red;"></i> All Things Design &amp; Development</h1>
                     <p class="lead">My life purpose is to create. If you are looking for a creator, builder, problem solver then I would love to hear from you. I specialize in web design and front-end development. I love to code and help people build their businesses.
                         &nbsp; </p>
-                    <div class="btn-group" role="group"><a class="btn btn-info" role="button" href="#projects" style="margin:5px;">Hire full time</a><a class="btn btn-info" role="button" href="#" style="margin:5px;">contract work</a></div>
+                    <div class="btn-group" role="group"><a class="btn btn-info" role="button" href="#contact" style="margin:5px;">Contact me</a><a class="btn btn-info" role="button" href="#contact" style="margin:5px;">Learn more</a></div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img src="assets/img/rashadLogo.jpg" id="profile_img"></div>
             </div>
@@ -64,7 +68,7 @@
             <div class="intro">
                 <h2 class="text-center" id="services">Contractual Services </h2>
                 <p class="text-center">If it's strengthening your web presence or just getting help looking for the right URL name, (and everything in between) I can help. I provide many services that can help your company not only establish a presence on the web but also continue
-                    to grow that presence. My services are provided on a contract basis. I also provide consulting for people willing to learn about these services but can not afford to have the work done for them.</p>
+                    to grow that presence. My services are provided on a contract basis or for fulltime work. I also provide consulting for people willing to learn about these services but can not afford to have the work done for them.</p>
             </div>
             <div class="row features">
                 <div class="col-md-4 col-sm-6 item"><i class="fa fa-black-tie icon"></i>
@@ -105,7 +109,7 @@
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <h1>Why would you hire me?</h1>
-                <p>Simply put, I love this stuff. I love solving people's problems with code and design. I am an awesome guy to be around. I lead by example and follow with encouragement. In conclusion, Hiring me is worth the risk because I hate letting
+                <p class="white">Simply put, I love this stuff. I love solving people's problems with code and design. I am an awesome guy to be around. I lead by example and follow with encouragement. In conclusion, Hiring me is worth the risk because I hate letting
                     people down.</p>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12"><img src="assets/img/rashadProfilePic.jpg" width="300" id="real_profile_pic"></div>
@@ -121,7 +125,8 @@
                 <div class="col-md-4 col-sm-12 item">
                     <a href="#"><img class="img-responsive" src="assets/img/fultonFithouse_thumbNail.jpg" width="360" height="240"></a>
                     <h3 class="name">Fulton Fithouse</h3>
-                    <p class="description">I created this for a personal trainer's gym. I used the bootstrap studio app to accomplish it but I originaly made the first rendintion of the site in the bootstrap frame work but made the production piece in its desktop app. I problem solved useing my understanding of Javascript and knowlege</p>
+                    <p class="description">I created this for a personal trainer's gym. I used the bootstrap studio app to accomplish it but I originaly made the first rendintion of the site in the bootstrap frame work but made the production piece in its desktop app. I problem
+                        solved useing my understanding of Javascript and knowlege.</p>
                     <a class="btn btn-default" role="button" href="https://rashadmad.github.io/" style="margin:15px;">View site</a>
                 </div>
                 <div class="col-md-4 col-sm-12 item">
@@ -130,25 +135,23 @@
                     <p class="description">This is a wip for a design challenge that I am currently doing for 8th light University.</p><a class="btn btn-default" role="button" href="https://rashadmad.github.io/Flight-Site/" style="margin:15px;">View site</a>
                 </div>
                 <div class="col-md-4 col-sm-12 item">
-                    <a href="#"><img class="img-responsive" src="assets/img/coming_soon_thumbNail.jpg" width="360" height="240" id="comeing"></a>
-                    <h3 class="name">Coming Soon</h3>
-                    <p class="description">I have another project in mind once I complete The project that I am wokring on at the moment. Keep an eye out.</p>
-                    <a class="btn btn-default" role="button" href="https://rashadmad.github.io/" style="margin:15px;">View site</a>
+                    <a href="#"><img class="img-responsive" src="assets/img/jqueryTest_thumbNail.jpg" width="360" height="240" id="comeing"></a>
+                    <h3 class="name">Treehouse image project</h3>
+                    <p class="description">I love sass, It streamlines the process of styling and makes it fun. Making mixins, functions and using variables to make my own libraries is quite fulfilling. </p>
+                    <a class="btn btn-default" role="button" href="https://rashadmad.github.io/Treehouse_project_4/" style="margin:15px;">View site</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div>
-
+                      <div class="col-xs-12">
                         <img class="treehouse_logo" src="assets/img/Treehouse_Logo.png" alt="treehouse logo" width="100">
                         <h2 class="text-center">I Am A Student At Treehouse.com here are my Achievements<br><br><strong class='total green'>0</strong> points have been earned</h2>
-
+                      </div>
                         <div class="pieChart group">
                             <div class="pie"></div>
                             <div class="legend"></div>
                         </div>
                         </a>
-                    </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <h2 class="text-center">Take a look at my work On Github</h1>
@@ -164,137 +167,119 @@
         <div class="container">
             <div class="intro">
                 <h2 class="text-center" id="skills">Skills </h2>
-                <p class="text-center">I Have collected different skills in digital media throughout my career. Honing my skills is important to me and learning new things is fun.</p>
-            </div>
-            <div class="row features">
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><i class="fa fa-html5 icon"></i>
-                        <h3 class="name">HTML &amp; CSS </h3>
-                        <p class="description">I take HTML 5 semantics in account for accessibility, SEO and general readability. Most of my responsive work is done in HTML and CSS media queries.&nbsp; </p>
+                    <p class="text-center">I Have collected different skills in digital media throughout my career. Honing my skills is important to me and learning new things is fun.</p>
+                </div>
+                <div class="row features">
+                    <div class="col-md-4 col-sm-6 item">
+                        <div class="box"><i class="fa fa-html5 icon"></i>
+                            <h3 class="name">HTML &amp; CSS </h3>
+                            <p class="description">I take HTML 5 semantics in account for accessibility, SEO and general readability. Most of my responsive work is done in HTML and CSS media queries.&nbsp; </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><i class="fa fa-github-square icon"></i>
-                        <h3 class="name">Github </h3>
-                        <p class="description">Github is a safe way for me to protect my progress and also experiment. I am comfortable using githubs desktop app and through the command line. </p>
+                    <div class="col-md-4 col-sm-6 item">
+                        <div class="box"><i class="fa fa-github-square icon"></i>
+                            <h3 class="name">Github </h3>
+                            <p class="description">Github is a safe way for me to protect my progress and also experiment. I am comfortable using githubs desktop app and through the command line. </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><i class="icon ion-social-javascript icon"></i>
-                        <h3 class="name">Javascript &amp; JQuery </h3>
-                        <p class="description">I got my first exprerience with codeing languages with action script and have taken the dive into javascript..</p>
+                    <div class="col-md-4 col-sm-6 item">
+                        <div class="box"><i class="icon ion-social-javascript icon"></i>
+                            <h3 class="name">Javascript &amp; JQuery </h3>
+                            <p class="description">My first exprerience with codeing languages with action script and have taken the dive into javascript.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-12">
-                    <hr>
-                </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><i class="fa fa-diamond icon"></i>
-                        <h3 class="name">Ruby On Rails</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                    <div class="col-md-12">
+                        <hr>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><i class="fa fa-wordpress icon"></i>
-                        <h3 class="name">Wordpress </h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                    <div class="col-md-4 col-sm-6 item">
+                        <div class="box"><i class="fa fa-diamond icon"></i>
+                            <h3 class="name">Ruby On Rails</h3>
+                            <p class="description">I was responsible for the user experience of this project which was tailored for gym trainers & athletes alike. I styled ruby on rails templates, created logos and icons with illustrator & Photoshop, CSS styling for forms and efficient data entry of clients stats and activities.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><i class="glyphicon glyphicon-bold icon"></i>
-                        <h3 class="name">Bootstrap and Bootstrap Studio</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                    <div class="col-md-4 col-sm-6 item">
+                        <div class="box"><i class="fa fa-wordpress icon"></i>
+                            <h3 class="name">Wordpress </h3>
+                            <p class="description">Have experience setting up a wordpress blog for a client. Have added copy to templates from both wordpress.org and wordpress.com.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-12">
-                    <hr>
-                </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><i class="icon ion-social-sass icon"></i>
-                        <h3 class="name">Fast </h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                    <div class="col-md-4 col-sm-6 item">
+                        <div class="box"><i class="glyphicon glyphicon-bold icon"></i>
+                            <h3 class="name">Bootstrap and Bootstrap Studio</h3>
+                            <p class="description">Achieved expertise with the bootstrap framework through multiple projects for clients. I have also used the bootstrap studio application. I find bootstrap studio a simple tool to get things up quickly and allows for my sites to be responsive and browser friendly.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><i class="glyphicon glyphicon-time icon"></i>
-                        <h3 class="name">Always available</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                    <div class="col-md-12">
+                        <hr>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><i class="glyphicon glyphicon-phone icon"></i>
-                        <h3 class="name">Responsive Design</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                    <div class="col-md-4 col-sm-6 item">
+                        <div class="box"><i class="icon ion-social-sass icon"></i>
+                            <h3 class="name">Fast </h3>
+                            <p class="description">I love sass, It streamlines the process of styling and makes it fun. Making mixins, functions and using variables to make my own libraries is quite fulfilling. </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-12">
-                    <hr>
-                </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><i class="icon ion-ios-world icon"></i>
-                        <h3 class="name">Organic </h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                    <div class="col-md-4 col-sm-6 item">
+                        <div class="box"><i class="glyphicon glyphicon-time icon"></i>
+                            <h3 class="name">Always available</h3>
+                            <p class="description">I keep my voice mail clear and I pay attention to all social media outlets. I prefer email, as it is the best way to get things done.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><i class="glyphicon glyphicon-education icon"></i>
-                        <h3 class="name">Fast </h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                    <div class="col-md-4 col-sm-6 item">
+                        <div class="box"><i class="glyphicon glyphicon-education icon"></i>
+                            <h3 class="name">Savannah University of Art & Design </h3>
+                            <p class="description">I am an alum of the Savannah University Of Art & Design. There I meet many people just as passionate about art and technology as me. I gained a Bachelors degree in Fine Arts in the interactive design and development department.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="blue" style="background-color:#29ade0;padding:40px;">
-        <div class="row">
-            <div class="col-lg-6 col-md-6">
+        <div class="blue" style="background-color:#29ade0;padding:40px;">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
 
-            </div>
-            <div class="col-lg-6 col-md-6">
+                </div>
+                <div class="col-lg-6 col-md-6">
 
+                </div>
             </div>
         </div>
-    </div>
-    <div class="contact-clean">
-        <h2 class="text-center" id="resume">Resume </h2>
-        <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/rashad-madison-6371b713" data-format="inline" data-related="false"></script>
-        <form method="post">
-            <h2 class="text-center">Contact us</h2>
-            <div class="form-group has-success has-feedback">
-                <input class="form-control" type="text" name="name" placeholder="Name"><i class="form-control-feedback glyphicon glyphicon-ok" aria-hidden="true"></i></div>
+        <div id="contact" class="contact-clean">
+            <h2 class="text-center" >Contact me</h2>
             <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/rashad-madison-6371b713" data-format="inline" data-related="false"></script>
-            <div class="form-group">
-                <textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea>
-            </div>
-            <div class="form-group">
-                <button class="btn btn-primary" type="submit">send </button>
-            </div>
-        </form>
-    </div>
-    <footer>
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <header>
-                    <h1>Glade you came to my site, Thank You!</h1></header>
-                <hr>
-                <p class="text-left">I am here for all of your web design and front-end development needs. I am free for contract work and full time hire at the moment. Contact me at my email: rashadmad@gmail.com. also follow me on twitter, Linkedin and github.</p>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="thumbnail text-center"><img class="img-circle" src="assets/img/rashadProfilePic.jpg" style="height: 50px; height: 50px;">
-                    <div class="caption">
-                        <h5><a href="#"><i class="fa fa-user fa-fw"></i> Rashad J Madison</a></h5>
-                        <p class="text-nowrap text-muted"> I am easy to reach. &nbsp;&nbsp;</p>
-                        <div class="social-links social-icons"><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a class="text-info" href="#"><i class="fa fa-github"></i></a></div>
-                        <a class="btn btn-info" role="button" href="tel:7733205797" style="margin:5px;"><i class="fa fa-phone fa-fw"></i> call me</a><a class="btn btn-info" role="button" href="rashadmad@gmail.com"><i class="fa fa-mail-forward fa-fw"></i>email me</a></div>
+            <form method="post">
+                <div class="form-group has-success has-feedback">
+                    <input class="form-control" type="text" name="name" placeholder="Name"><i class="form-control-feedback glyphicon glyphicon-ok" aria-hidden="true"></i></div>
+                <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/rashad-madison-6371b713" data-format="inline" data-related="false"></script>
+                <div class="form-group">
+                    <textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit">send </button>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <header>
+                        <h1>Glade you came to my site, thank you!</h1></header>
+                    <hr>
+                    <p class="text-left">I am here for all of your web design and front-end development needs. I am free for contract work and full time hire at the moment. Contact me at my email: rashadmad@gmail.com. also follow me on twitter, Linkedin and github.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="thumbnail text-center"><img class="img-circle" src="assets/img/rashadProfilePic.jpg" style="height: 50px; height: 50px;">
+                        <div class="caption">
+                            <h5><a href="#"><i class="fa fa-user fa-fw"></i> Rashad J Madison</a></h5>
+                            <p class="text-nowrap text-muted"> I am easy to reach. &nbsp;&nbsp;</p>
+                            <div class="social-links social-icons"><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a class="text-info" href="#"><i class="fa fa-github"></i></a></div>
+                            <a class="btn btn-info" role="button" href="tel:7733205797" style="margin:5px;"><i class="fa fa-phone fa-fw"></i> call me</a><a class="btn btn-info" role="button" href="rashadmad@gmail.com"><i class="fa fa-mail-forward fa-fw"></i>email me</a></div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <section id="copywrite" class="features">
-        <h5 class="text-center">Powered By Rashad J Madison © 2017</h5></section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <div class="report-card treehouse"></div>
+        </footer>
+        <section id="copywrite" class="features">
+            <h5 class="text-center">Powered By Rashad J Madison © 2017</h5></section>
+        <div class="report-card treehouse"></div>
 </body>
 
 </html>

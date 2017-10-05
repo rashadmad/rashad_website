@@ -1,26 +1,15 @@
 .github-widget {
   margin:10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   max-width: 100% !important;
 }
 
-.img-responsive {
-  text-align: center;
-}
-
-.left {
-  float: left;
-}
-.right {
-  float: right;
-}
 .box {
-  height: 300px;
+  height: 350px;
 }
 
 .description {
-  height: 150px;
-  margin:0;
+  height: 100px;
 }
 
 .btn.btn-default {
@@ -49,8 +38,14 @@ p {
 .treehouse_logo {
   width: 50%;
   margin-left: 25%;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .green {
   color:#6CC574;
+}
+
+.white {
+  color:white;
 }

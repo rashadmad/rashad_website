@@ -11,6 +11,24 @@
   clear: both;
 }
 
+@media (min-width:320px) {
+.pieChart{
+  font-size: .8em;
+  }
+}
+@media (min-width:400px) {
+.pieChart{
+  font-size: 1em;
+  }
+}
+@media (min-width:700px) {
+.pieChart{
+  font-size: .9em;
+  margin-left: 15%;
+  }
+}
+
+
 body a {
   text-decoration: none;
 }
@@ -21,11 +39,6 @@ body .team-treehouse h2 {
   font-weight: normal;
 }
 
-.pieChart {
-  width: 25.5em;
-  margin: 0 auto;
-  padding-top: 1em;
-}
 
 .pie {
   height: 12.5em;
