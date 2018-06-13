@@ -8,6 +8,10 @@
   max-width: 100% !important;
 }
 
+.intro{
+  margin-top:50px !important;
+}
+
 .box {
   height: 350px;
 }
