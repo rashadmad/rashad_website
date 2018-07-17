@@ -2,10 +2,6 @@
   margin: 0;
 }
 
-.orange{
-  color: white;
-  background-color: #f15c22;
-}
 .blue{
   color: white;
   background-color: #2caae2;
@@ -22,16 +18,13 @@
 #myBar {
   width: 12%;
   height: 20px;
-  background-color: #f15c22;
+  background-color: #f05d23;;
   border-radius: 1.8px;
   border-style: solid;
   border-width: 1px;
   margin: 3px;
 }
 
-h1 {
-  font-size: 1em;
-}
 
 .github-widget {
   margin:10px;
