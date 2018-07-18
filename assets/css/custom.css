@@ -6,6 +6,35 @@
   color: #2caae2;
 }
 
+.btn {
+  background-color: #2caae2;
+  color: white;
+}
+
+.card {
+  width: 60%;
+}
+
+.btn .btn-info {
+  margin: 5px;
+}
+
+.card-orange {
+    background: linear-gradient(to bottom, white, #f05d23);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-orange .container {
+    padding: 2px 16px;
+}
+
+
 #myProgress {
   width: 100%;
   background-color: #2caae2;
@@ -17,7 +46,7 @@
 #myBar {
   width: 12%;
   height: 20px;
-  background-color: #f05d23;;
+  background-color: #f05d23;
   border-radius: 1.8px;
   border-style: solid;
   border-width: 1px;
