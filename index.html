@@ -188,8 +188,8 @@
     <div class="row">
       <div class="col-md-6 col-sm-6 col-xs-12">
         <div class="col-xs-12">
-          <img class="treehouse_logo" src="assets/img/Treehouse_Logo.png" alt="treehouse logo" width="100">
-          <h2 class="text-center">I Am A Student At Treehouse.com here are my Achievements<br><br><strong class='total green'>0</strong> points have been earned</h2>
+          <div class="container text-center"><img src="assets/img/Treehouse_Logo.png" alt="treehouse logo" width="200"></div>
+          <h1 style="color:#2caae2;">I Am A Student At Treehouse.com here are my Achievements<br><br><strong class='total green'>0</strong> points have been earned</h1>
         </div>
         <div class="pieChart group">
           <div class="pie"></div>
@@ -197,9 +197,10 @@
         </div>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12">
-        <img id="scad" src="assets/img/264_10.png" alt="scad logo">
+        <div class="container text-center"><img id="scad" src="assets/img/264_10.png" alt="scad logo"></div>
+        <br>
         <h1 style="color:#2caae2;">Graduated and recieved a Bachelors Of Fine Arts</h1>
-        <p class="text-center">I am an alum of the Savannah University Of Art & Design. There I meet many people just as passionate about art and technology as me. I gained a Bachelors degree in Fine Arts in the interactive design and development department.
+        <p>I am an alum of the Savannah University Of Art & Design. There I meet many people just as passionate about art and technology as me. I gained a Bachelors degree in Fine Arts in the interactive design and development department.
         </p>
       </div>
     </div>
@@ -215,25 +216,33 @@
     <div class="container">
       <div class="intro">
         <h1 class="text-center" id="skills">Skills </h1>
-        <p class="text-center">I Have collected different skills in digital media throughout my career. Honing my skills is important to me and learning new things is fun.</p>
+        <p class="text-center"></p>
       </div>
       <div class="row features">
         <div class="col-md-4 col-sm-6 item">
           <div class="box"><i class="fa fa-html5 icon"></i>
             <h3 class="name">HTML &amp; CSS </h3>
-            <p class="description">I take HTML 5 semantics in account for accessibility, SEO and general readability. Most of my responsive work is done in HTML and CSS media queries.&nbsp; </p>
+            <div class="myProgress">
+              <div  id="htmlcss" class="theBar"></div>
+            </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 item">
-          <div class="box"><i class="fa fa-github-square icon"></i>
-            <h3 class="name">Github </h3>
-            <p class="description">Github is a safe way for me to protect my progress and also experiment. I am comfortable using githubs desktop app and through the command line. </p>
+          <div class="box"><i class="icon fa fa-git" aria-hidden="true"></i>
+            <h3 class="name">Git</h3>
+            <div class="myProgress">
+              <div id="Git" class="theBar"></div>
+            </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 item">
           <div class="box"><i class="icon ion-social-javascript icon"></i>
             <h3 class="name">Javascript &amp; JQuery </h3>
-            <p class="description">My first exprerience with codeing languages with action script and have taken the dive into javascript.</p>
+            <div>
+              <div class="myProgress">
+                <div id="Javascript" class="theBar"></div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-12">
@@ -242,42 +251,84 @@
         <div class="col-md-4 col-sm-6 item">
           <div class="box"><i class="fa fa-diamond icon"></i>
             <h3 class="name">Ruby On Rails</h3>
-            <p class="description">I was responsible for the user experience of this project which was tailored for gym trainers & athletes alike. I styled ruby on rails templates, created logos and icons with illustrator & Photoshop, CSS styling for forms and efficient data
-              entry of clients stats and activities.</p>
+            <div>
+              <div class="myProgress">
+                <div id="Ruby" class="theBar"></div>
+              </div>
+                <bold>Rusty but was proficent</bold>
+            </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 item">
           <div class="box"><i class="fa fa-wordpress icon"></i>
-            <h3 class="name">Wordpress </h3>
-            <p class="description">Have experience setting up a wordpress blog for a client. Have added copy to templates from both wordpress.org and wordpress.com.</p>
+            <h3 class="name">Wordpress</h3>
+            <div>
+              <div class="myProgress">
+                <div id="Wordpress" class="theBar"></div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 item">
-          <div class="box"><i class="glyphicon glyphicon-bold icon"></i>
-            <h3 class="name">Bootstrap and Bootstrap Studio</h3>
-            <p class="description">Achieved expertise with the bootstrap framework through multiple projects for clients. I have also used the bootstrap studio application. I find bootstrap studio a simple tool to get things up quickly and allows for my sites to be responsive
-              and browser friendly.</p>
+          <div class="box"><i class="icon fa fa-bold" aria-hidden="true"></i>
+            <h3 class="name">Bootstrap</h3>
+            <div class="myProgress">
+              <div id="Bootstrap" class="theBar"></div>
+            </div>
           </div>
         </div>
         <div class="col-md-12">
           <hr>
         </div>
         <div class="col-md-4 col-sm-6 item">
+          <div class="box"><i class="icon fa fa-server" aria-hidden="true"></i></i>
+            <h3 class="name">MySQL</h3>
+            <div class="myProgress">
+              <div id="MySQL" class="theBar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 item">
+          <div class="box"><i class="icon fa fa-universal-access" aria-hidden="true"></i>
+            <h3 class="name">accessibility/a11y</h3>
+            <div class="myProgress">
+              <div id="a11y" class="theBar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 item">
+          <div class="box"><i class="icon fa fa-picture-o" aria-hidden="true"></i></i>
+            <h3 class="name">wireframing</h3>
+            <div class="myProgress">
+              <div id="wireframing" class="theBar"></div>
+            </div>
+          </div>
+        </div>  
+        <div class="col-md-12">
+          <hr>
+        </div>
+        <div class="col-md-4 col-sm-6 item">
           <div class="box"><i class="icon ion-social-sass icon"></i>
-            <h3 class="name">Fast </h3>
-            <p class="description">I love sass, It streamlines the process of styling and makes it fun. Making mixins, functions and using variables to make my own libraries is quite fulfilling. </p>
+            <h3 class="name">SASS</h3>
+            <div class="myProgress">
+              <div id="SASS" class="theBar"></div>
+            </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 item">
-          <div class="box"><i class="glyphicon glyphicon-time icon"></i>
-            <h3 class="name">Always available</h3>
-            <p class="description">I keep my voice mail clear and I pay attention to all social media outlets. I prefer email, as it is the best way to get things done.</p>
+          <div class="box"><img class="icon" src="assets/img/illustrator_icon.png" style="width: 70px;"></i></i>
+            <h3 class="name">Illustrator</h3>
+            <div class="myProgress">
+              <div id="Illustrator" class="theBar"></div>
+            </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 item">
-          <div class="box"><i class="glyphicon glyphicon-education icon"></i>
-            <h3 class="name">Savannah University of Art & Design </h3>
-            <p class="description">I am an alum of the Savannah University Of Art & Design. There I meet many people just as passionate about art and technology as me. I gained a Bachelors degree in Fine Arts in the interactive design and development department.</p>
+          <div class="box"><img class="icon" src="assets/img/psd_icon.png" style="width: 70px;"></i></i>
+            <h3 class="name">Photoshop</h3>
+            <div id="Photoshop" class="myProgress">
+              <div class="theBar"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -336,5 +387,4 @@
   <section id="copywrite" class="features"><h5 class="text-center">Powered By Rashad J Madison © 2017</h5></section>
   <div class="report-card treehouse"></div>
 </body>
-
 </html>
