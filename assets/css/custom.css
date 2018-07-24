@@ -1,3 +1,18 @@
+body { padding-top: 100px; }
+nav.navbar.navbar-default {
+    height: 5px !important;
+    margin:0;
+}
+
+nav.navbar.navbar-default {
+  width: 100%;
+}
+
+nav {
+}
+
+.navbar-default {
+}
 .myProgress {
   width: 100%;
   background-color: #2caae2;
@@ -157,11 +172,6 @@
 
 .btn.btn-default {
   margin:0;
-}
-
-.navbar-collapse {
-  z-index: 1000;
-  background-color: white;
 }
 
 h1 {
