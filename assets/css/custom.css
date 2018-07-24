@@ -8,7 +8,9 @@ nav.navbar.navbar-default {
   width: 100%;
 }
 
-nav {
+.item{
+  text-align: center;
+
 }
 
 .navbar-default {
@@ -27,6 +29,10 @@ nav {
   border-width: 1px;
   margin: 3px;
   background-color: #f05d23;
+}
+
+.item{
+  margin: 10px;
 }
 
 .article-list .item {
@@ -80,7 +86,14 @@ nav {
 
 .cardTwo {
 }
-
+#skillsGrid {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat( auto-fit, minmax(130px, 1fr) );
+  grid-gap: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
 .myGrid {
   display: grid;
   padding: 10px;
@@ -117,7 +130,6 @@ nav {
 
 .myProgress {
   margin:0 auto;
-  width: 150px;
   background-color: #2caae2;
   border-radius: 1.8px;
   border-style: solid;
