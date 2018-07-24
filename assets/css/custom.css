@@ -124,8 +124,13 @@ nav {
   border-width: 1px;
 }
 
+.logoBox {
+  text-align: center;
+}
+
 #scad{
-  width: 400px;
+  margin:0 auto;
+  max-width: 400px;
   margin-top: 10px;
 }
 
