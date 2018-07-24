@@ -63,12 +63,25 @@
   color: white;
 }
 
-.card {
-  width: 60%;
+.cardTwo {
+}
+
+.myGrid {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat( auto-fit, minmax(130px, 1fr) );
+  grid-gap: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .btn .btn-info {
   margin: 5px;
+}
+
+.card {
+  height:
+    max-width: 400px
 }
 
 .card-orange {
@@ -117,9 +130,11 @@
 
 
 .github-widget {
-  margin:10px;
+  margin:2px;
   margin-bottom: 40px;
-  max-width: 100% !important;
+  width: 100%;
+  max-width: 400px !important;
+  height: 100% !important;
 }
 
 .intro{
