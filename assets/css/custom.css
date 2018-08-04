@@ -109,7 +109,7 @@ nav.navbar.navbar-default {
 }
 
 .btn-group {
-  margin:0 auto;
+  text-align: center;
 }
 
 .name{
@@ -195,6 +195,9 @@ nav.navbar.navbar-default {
 }
 
 .card-text {
+  height: auto;
+  max-width: 300px;
+  margin: 0 auto;
   font-size: 1em;
   color: black;
 }
@@ -233,6 +236,21 @@ h1,h3 {
   font-weight: bold;
 }
 
+.img-responsive {
+  width: 100%;
+}
+
+.text-holder {
+}
+
+.btn-group2 {
+  text-align: center;
+}
+
+.card-body{
+  height: 220px;
+  padding: 10px;
+}
 
 p {
   font-family: 'Open Sans Condensed', sans-serif;
