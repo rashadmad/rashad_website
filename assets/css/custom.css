@@ -108,6 +108,14 @@ nav.navbar.navbar-default {
   margin: 5px;
 }
 
+.btn-group {
+  margin:0 auto;
+}
+
+.name{
+  text-align: center;
+}
+
 .card {
   height:
     max-width: 400px
@@ -220,10 +228,11 @@ nav.navbar.navbar-default {
   margin-right: 5px;
 }
 
-h1 {
+h1,h3 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
 }
+
 
 p {
   font-family: 'Open Sans Condensed', sans-serif;
