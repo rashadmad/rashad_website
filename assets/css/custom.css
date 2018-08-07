@@ -42,10 +42,10 @@ nav.navbar.navbar-default {
   }
 
 #htmlcss {
-    width: 97%;
+    width: 75%;
 }
 #Javascript {
-    width: 70%;
+    width: 56%;
 }
 #Ruby {
     width: 30%;
@@ -53,23 +53,26 @@ nav.navbar.navbar-default {
 #sass {
     width: 80%;
 }
-#Wordpress {
-    width: 25%;
-}
 #wireframing {
-    width: 25%;
+    width: 30%;
 }
 #Wordpress {
-    width: 50%;
+    width: 20%;
 }
 #Bootstrap {
-  width: 80%;
+  width: 70%;
 }
 #Git {
   width: 65%;
 }
 #a11y {
   width: 15%;
+}
+#Illustrator {
+  width: 75%;
+}
+#Photoshop {
+  width: 85%;
 }
 
 .badge {
