@@ -178,7 +178,7 @@ h3.text-center {
 }
 
 .article-list p {
-    color: #7d8285
+    color: black;
 }
 
 .article-list h2 {
@@ -249,49 +249,12 @@ img#brand_image {
     height: 40px
 }
 
-@media (min-width:1200px) {
-    img#profile_img {
-        float: right
-    }
-    img#real_profile_pic {
-
-      float: right;
-    }
-}
-
-@media (max-width:767px) {
-  img#profile_img {
-    width: 90%;
-    float: right
-
-  }
-}
-
 hr {
     opacity: 0
 }
 
 p.text-info {
     color: #fff
-}
-
-@media (min-width:991px) {
-    img#real_profile_pic {
-      float: right;
-    }
-}
-
-@media (max-width:767px) {
-  img#real_profile_pic {
-
-    width: 90%;
-    margin: auto;
-
-  }  img#real_profile_pic {
-
-      width: 90%;
-      margin: auto;
-    }
 }
 
 .custom-header {

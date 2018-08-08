@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: #222222;
 }
 
 .group:after {
@@ -10,24 +11,6 @@
   display: table;
   clear: both;
 }
-
-@media (min-width:320px) {
-.pieChart{
-  font-size: .8em;
-  }
-}
-@media (min-width:400px) {
-.pieChart{
-  font-size: 1em;
-  }
-}
-@media (min-width:700px) {
-.pieChart{
-  font-size: .9em;
-  margin-left: 20%;
-  }
-}
-
 
 body a {
   text-decoration: none;
@@ -37,6 +20,17 @@ body .team-treehouse h1, body .team-treehouse h2 {
 }
 body .team-treehouse h2 {
   font-weight: normal;
+}
+
+.pieChart {
+  width: 25.5em;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+@media screen and (max-width: 320px) {
+  .pieChart {
+    display:none;
+  }
 }
 
 

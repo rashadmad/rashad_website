@@ -191,6 +191,7 @@ nav.navbar.navbar-default {
 
 .intro{
   margin-top:50px !important;
+  margin-bottom:50px !important;
 }
 
 .box {
@@ -221,17 +222,17 @@ nav.navbar.navbar-default {
 }
 
 #treehouse_logo {
-  width: 300px;
-  margin-bottom: 0;
-  margin-top: 0;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 35%;
 }
 
 #scad{
-  width: 250px;
-  margin:0 auto;
-  margin-top: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 35%;
 }
 
 h1,h3 {
@@ -241,6 +242,10 @@ h1,h3 {
 
 .img-responsive {
   width: 100%;
+}
+
+.profile {
+  text-align: center;
 }
 
 .text-holder {
@@ -260,15 +265,21 @@ p {
   font-size: 24px;
 }
 
-.description {
-  font-size: 29px;
+#real_profile_pic{
+  float: right;
+  width: 100%;
+  max-width: 500px;
 }
 
-.treehouse_logo {
-  width: 50%;
-  margin-left: 25%;
-  margin-bottom: 0;
-  margin-top: 0;
+@media screen and (max-width: 767px) {
+  #real_profile_pic {
+    display:block;
+    max-width: 400px;
+  }
+}
+
+.description {
+  font-size: 29px;
 }
 
 .green {
