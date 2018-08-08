@@ -14,8 +14,6 @@ nav.navbar.navbar-default {
   margin:0;
 }
 
-.navbar-default {
-}
 .myProgress {
   width: 100%;
   background-color: #2caae2;
@@ -189,6 +187,10 @@ nav.navbar.navbar-default {
   height: 100% !important;
 }
 
+.fa {
+  color: white;
+}
+
 .intro{
   margin-top:50px !important;
   margin-bottom:50px !important;
@@ -198,11 +200,23 @@ nav.navbar.navbar-default {
   height: 350px;
 }
 
+a {
+  color: white;
+}
+
+.navbar-default {
+  background-color:#2caae2;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+
 .card-text {
+  text-align: center;
   height: auto;
   max-width: 300px;
   margin: 0 auto;
-  font-size: 1em;
+  font-size: 1.5em;
   color: black;
 }
 
@@ -225,14 +239,14 @@ nav.navbar.navbar-default {
   display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 35%;
+   width: 50%;
 }
 
 #scad{
   display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 35%;
+   width: 50%;
 }
 
 h1,h3 {
