@@ -72,6 +72,9 @@ nav.navbar.navbar-default {
 #Photoshop {
   width: 85%;
 }
+#MySQL {
+  width: 15%;
+}
 
 .badge {
   margin: 0;
@@ -204,7 +207,37 @@ a {
   color: white;
 }
 
+#brand {
+  width: 200px;
+}
+
+@media screen and (max-width: 559px) {
+  #brand {
+    margin-top: 4px;
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  #brand {
+    margin-top: 9px;
+    width: 120px;
+  }
+}
+
+
+@media screen and (max-width: 460px) {
+  #brand {
+    display: none !important;
+  }
+}
+
+.nav-link {
+  margin-top: 14px;
+}
+
 .navbar-default {
+  min-height:65px !important;
   background-color:#2caae2;
   background-image: none;
   background-repeat: no-repeat;
