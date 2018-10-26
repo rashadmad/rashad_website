@@ -39,8 +39,14 @@ nav.navbar.navbar-default {
     min-height: 0;
   }
 
-#htmlcss {
-    width: 75%;
+#html {
+  width: 95%;
+}
+#css {
+  width: 55%;
+}
+#jquery {
+  width: 50%;
 }
 #Javascript {
     width: 56%;
