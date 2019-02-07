@@ -43,7 +43,7 @@ nav.navbar.navbar-default {
   width: 95%;
 }
 #css {
-  width: 55%;
+  width: 75%;
 }
 #jquery {
   width: 50%;
@@ -70,7 +70,7 @@ nav.navbar.navbar-default {
   width: 65%;
 }
 #a11y {
-  width: 15%;
+  width: 30%;
 }
 #Illustrator {
   width: 75%;
@@ -83,6 +83,12 @@ nav.navbar.navbar-default {
 }
 #Jeykll {
   width: 30%;
+}
+#React {
+  width: 30%;
+}
+#Jasmine {
+  width: 20%;
 }
 
 .badge {
